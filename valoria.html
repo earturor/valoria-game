@@ -1,0 +1,66 @@
+<!--"Valoria is a card-based web game that features three distinct classes: Mage, Warrior, and Priest."
+Arturo Rentería
+email: earturordr@outlook.com
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Valoria</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <h1>V a l o r i a</h1>
+        <section id="seccion-inicio">
+            <div class="historia">
+                <p>
+                    Bienvenidos a Valoria, una tierra llena de misterios y peligros, con una historia rica y oscura. Un mal antiguo amenaza su paz y un grupo de héroes se une para salvar su hogar y restaurar la paz. A través de intensas batallas y sacrificios, logran vencer al mal y restaurar la paz en Valoria. Ahora, el reino está en calma y los héroes son recordados como leyendas.
+                </p>
+                <p style="color: #FAD6A5;">Los tres heroes de Valoria son:</p>
+                <p>
+                    <span style="color: #FAD6A5;">Zoltar</span>  🔥, un poderoso mago, se retiró a las montañas para estudiar y perfeccionar sus habilidades mágicas. Pero cuando un mal antiguo amenaza a Valoria, Zoltar es llamado de nuevo a la acción para salvar a su hogar y a su gente.
+                </p>
+                <p>
+                    <span style="color: #FAD6A5;">Thorngrim</span> 🗡, un valiente guerrero, luchó en muchas batallas para proteger a su pueblo. Ahora, en su retiro, es llamado de nuevo para liderar a su gente y acabar con el mal amenazante.
+                </p>
+                <p>
+                    Por último, <span style="color: #FAD6A5;">Seraphine</span> 🍀, una santa sacerdotisa, dedica su vida a curar a los heridos y ayudar a los necesitados. Con su fe y habilidades curativas, Seraphine se une a la lucha contra el mal que amenaza a Valoria, para salvar a su pueblo y restaurar la paz.
+                </p>
+                <button id="boton-inicio" class="boton-menu">INICIAR</button>
+            </div>
+        </section>
+
+        <section id="seccion-personajes">
+            <p>Selecciona tu personaje:</p>
+            <div id="contenedor-de-personajes"class="personajes">
+                
+            </div>
+            <button id="boton-ir-a-batalla" class="boton-menu">IR A BATALLA</button>
+        </section>
+
+        <section id="seccion-batalla">
+            <p>Batalla:</p>
+            <div id="campo-de-batalla">
+                <div id="jugador-estado">
+                    <p id="personaje-jugador"></p>
+                    <p id="vida-jugador">2000</p>
+                    <div id="contenedor-de-ataques" class="ataques">
+
+                    </div>
+                </div>
+                <div id="estado-de-batalla">
+                    <p style="color: green;">JUGADOR:</p>
+                    <p id="daño-jugador"></p>
+                    <p style="color: rebeccapurple;">ENEMIGO:</p>
+                    <p id="daño-enemigo"></p>
+                </div>
+                <div id="enemigo-estado">
+                    <p id="personaje-enemigo"></p>
+                    <p id="vida-enemigo">2000</p>
+                </div>  
+                              
+            </div>
+            <button id="boton-reiniciar" class="boton-menu">REINICIAR</button>        
+        </section>
+        <script src="./js/valoria.js"></script>
+    </body>
+</html>
