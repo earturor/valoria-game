@@ -5,6 +5,8 @@ Click on "INICIAR" to start the game.
 Select your character and click on "IR A LA BATALLA" to start the battle.
 Restart the game click on "REINICIAR".
 
+Gameplay: https://earturor.github.io/valoria-game/valoria.html
+
 Each character as their own ability:
 
 ### Zoltar:
